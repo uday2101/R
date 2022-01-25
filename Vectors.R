@@ -5,7 +5,7 @@ letters <-c('a','b','c','d','e')
 letters
 print(letters)
 #concatenating the above strings
-mixed_vec <-c(numbers,letters) #coercion taes place from numbers to letters
+mixed_vec <-c(numbers,letters) #coercion takes place from numbers to letters
 print(mixed_vec)
 class(mixed_vec)
 #One dimensional vectors can be created 
@@ -19,3 +19,5 @@ num
 #Factor Vector
 fac = as.factor(num)
 print(fac)
+ltrs <- letters[1:10]
+print(ltrs)
